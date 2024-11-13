@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDD0; /* Cream background */
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Green header */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 80px; /* Adjusted size */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Section Styles */
+h2 {
+    font-family: 'Lora', serif; /* Heading font */
+    color: #8B4513; /* Brown color for headings */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #fff; /* White background for product items */
+    border: 1px solid #8B4513; /* Brown border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    width: calc(45% - 30px); /* Responsive width */
+    text-align: center;
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.product-item img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+}
+
+.product-item h3 {
+    font-family: 'Lora', serif; /* Heading font for product names */
+    color: #4CAF50; /* Green color for product names */
+}
+
+.product-item p {
+    color: #333; /* Dark grey for product descriptions and prices */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Contact Us Section Styles */
+#contact {
+    background-color: #F5F5F5; /* Light grey background for contact section */
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #4CAF50;
+}
+
+#contact h2 {
+    color: #8B4513; /* Brown color for headings */
+}
+
+#contact p {
+    text-align: center;
+    color: #333;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#contact label {
+    margin-top: 10px;
+    color: #8B4513;
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"] {
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+#contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#contact button:hover {
+    background-color: #388E3C;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50; /* Green footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
